@@ -1,0 +1,23 @@
+<!--    start of email form -->
+<div>
+  <h2 id="email">Magic email form!</h2>
+  <p>(You can also just send a message to YOUREMAIL@EMAIL.COM.)</p>
+  <form method="post" action="email_process.php">
+    <div>
+      <label for="name">Name:</label>
+      <input  type="text" name="name" maxlength="50">
+    </div>
+    <div>
+      <label for="email">Email:</label>
+      <input  type="text" name="email" maxlength="100">
+    </div>
+    <div>
+      <label for="message">Message:</label><br>
+      <textarea  name="message" maxlength="2000" cols="25" rows="6"></textarea>
+    </div>
+    <div>
+      <p><input type="submit" value="Send"></p>
+    </div>
+  </form>
+</div>
+<!--    end email form   -->
